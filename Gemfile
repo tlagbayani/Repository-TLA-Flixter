@@ -10,7 +10,7 @@ gem 'rails', '~> 5.2.3'
 # Use postgresql as the database for Active Record
 gem 'pg', '>= 0.18', '< 2.0'
 # Use Puma as the app server
-gem "puma", ">= 3.12.3"
+gem "puma", ">= 3.3.5"
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
@@ -91,3 +91,8 @@ gem 'font-awesome-rails'
 gem "nokogiri", ">= 1.10.8"
 gem "actionview", ">= 5.2.4.2"
 gem "excon", ">= 0.71.0"
+
+gem "websocket-extensions", ">= 0.1.5"
+gem "activesupport", ">= 5.2.4.3"
+gem "actionpack", ">= 5.2.4.3"
+gem "activestorage", ">= 5.2.4.3"
